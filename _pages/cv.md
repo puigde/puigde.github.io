@@ -8,22 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-Education
-======
-
-Work experience
-======
-  
-Skills
-======
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service
-======
- 
+[pdf link](https://github.com/puigde/puigde.github.io/tree/master/files)

@@ -1,0 +1,12 @@
+---
+title: "Learning to Remove Cuts in Integer Linear Programming"
+collection: publications
+permalink: /publication/2024-07-20-learning-to-remove-cuts-ilp
+excerpt: "We explore a new approach in solving integer linear programs (ILPs) with cutting plane methods: instead of only adding new cuts, we also consider the removal of previous cuts introduced at any of the preceding iterations of the method under a learnable parametric criteria."
+date: 2024-07-20
+venue: "International Conference of Machine Learning (ICML)"
+paperurl: "https://arxiv.org/abs/2406.18781"
+authors: "**Pol Puigdemont<sup>*</sup>**, Stratis Skoulakis<sup>*</sup>, Grigorios G Chrysos, Volkan Cevher"
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
