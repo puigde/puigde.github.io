@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Personal Website</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+    <!-- navbar -->
+    <nav
+      class="bg-gradient-to-r from-yellow-200 via-orange-200 to-purple-200 bg-opacity-70 text-gray-800 py-4 sticky top-0 z-50"
+    >
+      <div class="flex justify-end space-x-4 px-4">
+        <a href="index.html" class="hover:text-green-600">Home</a>
+        <a href="publications.html" class="hover:text-green-600"
+          >Publications</a
+        >
+      </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow px-4 py-8 md:py-12 max-w-3xl mx-auto">
+      <!-- About Section -->
+      <h2 class="text-2xl md:text-3xl font-semibold mb-4">About</h2>
+      <section id="about" class="flex items-start">
+        <div class="flex-grow">
+          <p class="text-lg md:text-xl leading-relaxed mb-4">
+            I am a research intern at
+            <a
+              href="https://www.epfl.ch/"
+              target="_blank"
+              class="text-blue-500 hover:text-blue-600"
+              >LIONS-EPFL</a
+            >. <br />
+            My current research interests revolve around post-training
+            techniques towards improving the reliability, privacy and efficiency
+            of machine learning models.
+          </p>
+          <p class="text-lg md:text-xl font-bold">Previously:</p>
+          <ul class="list-disc pl-6 text-lg md:text-xl leading-relaxed">
+            <li>
+              Research intern at
+              <a
+                href="https://www.georgiatech.edu/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >Georgia Tech</a
+              >.
+            </li>
+            <li>
+              Research intern at
+              <a
+                href="https://www.upc.edu/en"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >Universitat Politècnica de Catalunya</a
+              >.
+            </li>
+            <li>
+              Large Language Models (LLMs) at
+              <a
+                href="https://www.capchase.com/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >Capchase</a
+              >.
+            </li>
+            <li>
+              Time Series forecasting and Pricing Optimization at
+              <a
+                href="https://www.mango.es/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >MANGO</a
+              >.
+            </li>
+            <li>
+              Self Driving Cars at
+              <a
+                href="https://bcnemotorsport.upc.edu/home/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >BCNeMotorsport</a
+              >.
+            </li>
+            <li>
+              Computer Vision at
+              <a
+                href="https://www.tavil.com/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >TAVIL</a
+              >.
+            </li>
+            <li>
+              Organized hackathons at
+              <a
+                href="https://www.aed.cat/"
+                target="_blank"
+                class="text-blue-500 hover:text-blue-600"
+                >AED</a
+              >.
+            </li>
+          </ul>
+        </div>
+        <img
+          src="media/profile_picture.png"
+          alt="Profile Picture"
+          class="w-48 h-48 rounded-sm ml-4"
+        />
+    </main>
+
+    <!-- Footer Section -->
+    <footer
+      class="bg-gradient-to-r from-yellow-200 via-orange-200 to-purple-200 text-black text-center py-4"
+    >
+      <p>
+        {name}{surname}@gmail.com <br />
+        <a
+          href="https://x.com/polpuigdemont"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+          >twitter</a
+        >
+        |
+        <a
+          href="https://github.com/puigde"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+          >github</a
+        >
+        |
+        <a
+          href="https://scholar.google.com/citations?user=HvBKfKUAAAAJ&hl=en"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+          >scholar</a
+        >
+        |
+        <a
+          href="media/resume_document.pdf"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+          >resume</a
+        ><br />
+        &copy; 2024 Pol Puigdemont
+      </p>
+    </footer>
+  </body>
+</html>
